@@ -1,0 +1,90 @@
+use clap::Parser; // command-line argument parser crate
+use reqwest::Client; // HTTP client that makes requests to web servers crate
+use serde_json::Value; // Parse JSON string to Rust types and vice versa crate
+use std::env; // Rust standard environment crate
+use dotenv::dotenv; // Crate for loading environment variable from .env file
+
+#[derive(Parser)]
+#[command(author = "Quotes4Days", version = "1.0", about = "A CLI Quote Generator", long_about = None)]
+struct Cli {
+    #[arg(short, long, help = "Number of tweet to process")]
+    count: Option<u8>,
+}
+
+// Function to get my twitter ID
+
+async fn get_user_id(client: &Client, twitter_handle: &str, access_token: &str) -> Option<String> {
+    let url = format!("https://api.twitter.com/2/users/by/username/{}", twitter_handle);
+    let response = client
+        .get(&url)
+        .bearer_auth(access_token)
+        .send()
+        .await
+        .expect("Failed to send request");
+
+    // Handle the response
+    if response.status().is_success() {
+        let user_info: Value = response.json().await.expect("Failed to parse JSON");
+        if let Some(twitter_id) = user_info["data"]["id"].as_str() {
+            return Some(twitter_id.to_string());
+        }
+    } else {
+        let status = response.status();
+        let response_text = response.text().await.expect("Failed to read response body");
+        eprintln!("Error fetching user ID: {:?}, Body: {}", status, response_text);
+    }
+    None
+}
+
+// Function to fetch my tweets
+
+async fn fetch_user_tweets(client: &Client, twitter_id: &str, count: u8, access_token: &str) {
+    let url = format!("https://api.twitter.com/2/users/{}/tweets?max_results={}", twitter_id, count);
+    let response = client
+        .get(&url)
+        .bearer_auth(access_token)
+        .send()
+        .await
+        .expect("Failed to send request");
+
+    // Handle the response
+    if response.status().is_success() {
+        let tweets: Value = response.json().await.expect("Failed to parse JSON");
+        if let Some(tweets_arr) = tweets["data"].as_array() {
+            for (i, tweet) in tweets_arr.iter().enumerate() {
+                if let Some(tweet_content) = tweet["text"].as_str() {
+                    println!("Quote {}:\n {}\n", i + 1, tweet_content);
+                }
+            }
+        } else {
+            println!("No tweets found for this user.");
+        }
+    } else {
+        let status = response.status();
+        let response_text = response.text().await.expect("Failed to read response body");
+        eprintln!("Error fetching tweets: {:?}, Body: {}", status, response_text);
+    }
+}
+
+
+#[tokio::main]
+async fn main() {
+    // Load environment variables from the .env file
+    dotenv().ok();
+    let cli = Cli::parse();
+
+    // Fetch Twitter API keys from environment variables
+    let access_token = env::var("TWITTER_BEARER_TOKEN").expect("Missing TWITTER_BEARER_TOKEN");
+    let client = Client::new();
+
+    let count = cli.count.unwrap_or(7); // Default to 5 tweets if count is not specified
+    let twitter_handle = "QuoteGuy08"; // Replace with your actual Twitter username
+
+    // Fetch your user ID
+    if let Some(twitter_id) = get_user_id(&client, twitter_handle, &access_token).await {
+        // Fetch your tweets
+        fetch_user_tweets(&client, &twitter_id, count, &access_token).await;
+    } else {
+        eprintln!("Failed to retrieve user ID.");
+    }
+}

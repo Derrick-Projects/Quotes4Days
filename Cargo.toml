@@ -1,0 +1,15 @@
+[package]
+name = "quotes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.9", features = ["blocking", "json"] }  # Make sure the version is correct
+tweety = "0.1.5" # adjust version as needed
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"  # Check for the latest version on crates.io
+serde = { version = "1.0", features = ["derive"] }  # Add serde for serialization/deserialization
+serde_json = "1.0"  # Add serde_json for JSON parsing
+
+
