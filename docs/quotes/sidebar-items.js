@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["fetch_user_tweets","get_user_id","main"],"struct":["Cli"]};
