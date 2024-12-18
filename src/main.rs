@@ -14,10 +14,10 @@ struct Cli {
     #[arg(short, long, help = "Number of tweet to process")]
     count: Option<u8>,
     //   attribute describes each argument. In this case:
-    //   short: the short version of the argument
-    //   long: the long version of the argument
-    //   help: the help message to display when the user requests help
-    //   Option<u8>: the type of the argument, in this case, an unsigned 8-bit integer
+    //   short: the short version of the argument.
+    //   long: the long version of the argument.
+    //   help: the help message to display when the user requests help.
+    //   Option<u8>: the type of the argument, in this case, an unsigned 8-bit integer.
     //   count is an optional argument specifying the number of tweets to process.
 }
 
