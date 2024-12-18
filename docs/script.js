@@ -3,7 +3,7 @@ document.getElementById('fetchQuotes').addEventListener('click', fetchQuotes);
 async function fetchQuotes() {
     const response = await fetch('https://api.twitter.com/2/users/by/username/QuoteGuy08/tweets?max_results=5', {
         headers: {
-            'Authorization': 'Bearer YOUR_TWITTER_BEARER_TOKEN'
+            'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAMIzxQEAAAAACe3gAJfXBPTsYagG2Y7FPQSa%2BB0%3D2oGRrrV5OtcgItLaS9FnmEP39JhyWz4NcPFmeXUUR1QbIllbXl'
         }
     });
 
