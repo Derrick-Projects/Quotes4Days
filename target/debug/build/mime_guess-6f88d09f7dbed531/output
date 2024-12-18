@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Users\H.P\Desktop\Twitter\quotes\target\debug\build\mime_guess-6f88d09f7dbed531\out\mime_types_generated.rs
