@@ -1,0 +1,10 @@
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\release\deps\zerovec_derive-2e00ce28eb42fe56.dll: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\make_ule.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\make_varule.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\ule.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\utils.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\varule.rs
+
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\release\deps\zerovec_derive-2e00ce28eb42fe56.d: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\make_ule.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\make_varule.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\ule.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\utils.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\varule.rs
+
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src/lib.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\make_ule.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\make_varule.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\ule.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\utils.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerovec-derive-0.10.3\src\varule.rs:

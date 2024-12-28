@@ -1,0 +1,12 @@
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\release\deps\libanstyle-bf813c5e92f0138b.rmeta: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\macros.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\color.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\effect.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\reset.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\style.rs
+
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\release\deps\libanstyle-bf813c5e92f0138b.rlib: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\macros.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\color.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\effect.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\reset.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\style.rs
+
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\release\deps\anstyle-bf813c5e92f0138b.d: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\macros.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\color.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\effect.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\reset.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\style.rs
+
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src/lib.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\macros.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\color.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\effect.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\reset.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.10\src\style.rs:
