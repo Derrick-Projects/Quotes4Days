@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: lightblue;
-        }
-        .intro {
-            background-color: lightgreen;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-
 # QUOTE GENERATOR
 
 ## Introduction
-<p class="intro">
 This Rust Command-Line application fetches quotes from my X (Twitter) account and displays them on the terminal. 
 Its purpose is to have fun and read about interesting, motivational, or perhaps life-changing quotes, haha. 
 It's useful after long hours of coding on the terminal. The quotes are a mixture of my own and others from all over the world. I hope you enjoy them.
-</p>
 
 ## Installation
 
@@ -46,5 +27,3 @@ Personal Reflection: Users can run the generator to reflect on their thoughts an
 
 Customization/Personalization: X (Twitter) account offers a personalized way to access and share meaningful content, enhancing creativity, engagement, and productivity.
 
-</body>
-</html>
