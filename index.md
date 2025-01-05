@@ -7,6 +7,7 @@ It's useful after long hours of coding on the terminal. The quotes are a mixture
 
 ## Installation
 You can install and run my repository in two ways:
+
 &nbsp;&nbsp; Download the Repository:
 - Go to this URL: [My Repository](https://github.com/Derrick-Projects/quotes)
 - Click on the green "Code" button.
