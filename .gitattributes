@@ -1,4 +1,0 @@
-*.rs linguist-language=Rust
-*.html linguist-language=HTML
-*.make linguist-language=Makefile
-*.ll linguist-language=LLVM
