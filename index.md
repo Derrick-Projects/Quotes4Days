@@ -12,7 +12,7 @@ You can install and run my repository in two ways:
 - Select "Download ZIP" to download the repository as a ZIP file.
 - Extract the zip to a folder of your choosing in local machine.
 - Open your terminal or git bash.
-- Cd to the downloaded zip(quotes-master) folder located in the folder you extracted to.
+- Cd to the downloaded zip folder located in the folder you extracted to.
 - Type the command cargo run to build and run the rust project.
 
 &nbsp;&nbsp; Clone the Repository:
@@ -42,7 +42,7 @@ humor, and inspiration straight to the CLI.
 
 **Time Management**: Trying to find inspiration/mood-enhancing content through social media and from various sources can be time-consuming, this application saves you time and brings all the refreshment your mind needs straight through the terminal.
 
-**Advantages**
+## Advantages
 
 **Efficient**: This is for any CLI coders who love quotes and don't want to waste time sifting through X to find them.
 
