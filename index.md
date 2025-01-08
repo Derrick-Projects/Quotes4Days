@@ -9,7 +9,7 @@ It's useful after long hours of coding on the terminal. The quotes are a mixture
 You can install and run my repository in two ways:
 
 &nbsp;&nbsp; Download the Repository:
-- Go to this URL: [My Repository](https://github.com/Derrick-Projects/quotes)
+- Go to this URL: [My Repository](https://github.com/Derrick-Projects/Quotes4Days)
 - Click on the green "Code" button.
 - Select "Download ZIP" to download the repository as a ZIP file.
 - Extract the zip to a folder of your choosing in local machine.
@@ -20,7 +20,7 @@ You can install and run my repository in two ways:
 &nbsp;&nbsp; Clone the Repository:
 - Open your terminal or git bash.
 - Change the directory to where you want to clone the repository.
-- Clone the repository using the following command: git clone https://github.com/Derrick-Projects/quotes.git
+- Clone the repository using the following command: git clone https://github.com/Derrick-Projects/Quotes4Days.git
 - Change into the cloned repository directory.
 - Type the command cargo run to build and run the rust project.
 
