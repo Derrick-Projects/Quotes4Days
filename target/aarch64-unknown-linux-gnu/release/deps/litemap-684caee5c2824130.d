@@ -1,0 +1,11 @@
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\aarch64-unknown-linux-gnu\release\deps\liblitemap-684caee5c2824130.rmeta: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\map.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\mod.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\slice_impl.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\vec_impl.rs
+
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\aarch64-unknown-linux-gnu\release\deps\liblitemap-684caee5c2824130.rlib: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\map.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\mod.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\slice_impl.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\vec_impl.rs
+
+C:\Users\H.P\Desktop\Quote Generator\quotes\target\aarch64-unknown-linux-gnu\release\deps\litemap-684caee5c2824130.d: C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src/lib.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\map.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\mod.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\slice_impl.rs C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\vec_impl.rs
+
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src/lib.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\map.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\mod.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\slice_impl.rs:
+C:\Users\H.P\.cargo\registry\src\index.crates.io-6f17d22bba15001f\litemap-0.7.4\src\store\vec_impl.rs:
