@@ -10,7 +10,7 @@ You can install and run my repository in two ways:
 - Go to this URL: [My Repository](https://github.com/Derrick-Projects/Quotes4Days)
 - Click on the green "Code" button.
 - Select "Download ZIP" to download the repository as a ZIP file.
-- Extract the zip to a folder of your choosing in local machine.
+- Extract the zip to a folder of your choosing.
 - Open your terminal or git bash.
 - Cd to the downloaded zip folder located in the folder you extracted to.
 - Type the command cargo run to build and run the rust project.
